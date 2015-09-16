@@ -17,3 +17,12 @@ def by_three(number):
         return cube(number)
     else:
         return False
+
+
+# importing functions from another module
+# in this case the sqrt() is imported from "math"
+# Ask Python to print sqrt(25) on line 3.
+import math
+print math.sqrt(25)
+
+
