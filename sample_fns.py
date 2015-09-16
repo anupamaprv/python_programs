@@ -7,4 +7,13 @@ def deserves_another(n):
     
 
 
-# Function
+# Function with control loop
+def cube(number):
+    ans = number**3
+    return ans
+    
+def by_three(number):
+    if (number%3)== 0:
+        return cube(number)
+    else:
+        return False
