@@ -25,4 +25,12 @@ def by_three(number):
 import math
 print math.sqrt(25)
 
+# an alternative to calling the module from the print function
+from math import sqrt
+print sqrt(25)
+
+# syntax = from module import *
+from math import *
+# above line imports all the functions from the module named "math"
+
 
